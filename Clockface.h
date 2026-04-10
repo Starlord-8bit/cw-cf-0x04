@@ -12,6 +12,8 @@
 #include "IClockface.h"
 #include "assets.h"
 
+#define CLOCKFACE_NAME "cw-cf-0x04"
+
 namespace CF04 {
 
 
@@ -24,7 +26,7 @@ class Clockface: public IClockface {
     void drawClockPointer(float angle, byte pointerSize, uint16_t color);
     float degreesToRadians(float degrees);
 
-    
+
   public:
     Clockface(Adafruit_GFX* display);
     void setup(CWDateTime *dateTime);
