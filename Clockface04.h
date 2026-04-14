@@ -9,7 +9,7 @@
 #include <Object.h>
 #include <ImageUtils.h>
 #include <ColorUtil.h>
-#include "IClockface.h"
+#include "widgets/clockface/IClockface.h"
 #include "assets.h"
 
 namespace CF04 {
